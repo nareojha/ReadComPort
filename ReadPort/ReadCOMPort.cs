@@ -35,6 +35,9 @@ namespace ReadPort
             EventLog.WriteEntry("Service was Shutdown successfully");
         }
 
-       
+       private string ReadSerialPort(string portName)
+        {
+            return "yes";
+        }
     }
 }
